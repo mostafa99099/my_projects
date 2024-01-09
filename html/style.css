@@ -1,0 +1,19 @@
+.box{
+    border: 2px solid rgb(0, 195, 255);
+    height: auto;
+    padding: 25px;
+    width: 50%;
+    float: left;
+    background-color: black;
+}
+h1{
+    color: gold;
+}
+p{
+    color: chartreuse;
+}
+
+.box:hover{
+    background-color: blueviolet;
+    
+}

@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+h1{
+    color:rgb(212, 255, 0);
+    text-align: center;
+}
+p{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pagination{
+    text-align: center;
+}
+
+.pagination a {
+    color: aqua;
+    padding:8px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: rgb(243, 0, 207);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: blue;    
+    border-radius: 5px;
+}
+#text_color{
+    color: blueviolet;
+}
+
+#text_color:hover{
+    color: aqua;
+}
