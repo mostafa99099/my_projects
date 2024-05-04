@@ -6,7 +6,9 @@
 
 -4 git commit -m "text for commit" // "With the commit command, the files are ready for posting along with the desired text"
 
--5 git push -u mm_origin main // "The Posh command is used to push files to the GitHub repository. The name of the main branch"
+-5 git remote add "your name" "your URL"  // "This command is used to connect and add changes to the target repository"
+
+-6 git push -u mm_origin main // "The Posh command is used to push files to the GitHub repository. The name of the main branch"
 
 
 """
